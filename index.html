@@ -1,8 +1,27 @@
 <!DOCTYPE html>
-    <html>
-        <body>
-            <h1> 
-                Temp
-            </h1>
-        </body>
-    </html>
+<html lang = "en"></html>
+
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport"
+              content = "width = device-width, initial-scale = 1.0">
+        <title>TrekUIC</title>
+    </head>
+
+    <body>
+        <div class = "container">
+            <input id = "startSearchbar"
+                   onkeyup = "search_start()"
+                   type = "text" name = "startSearch"
+                   placeholder = "Search start destination...">
+
+            <ul id= 'list'>
+                <li class="destination">Entrance</li>
+                <li class="destination">Exit</li>
+            </ul>
+        </div>
+
+        <script src = "./script.js"></script>
+    </body>
+
+</html>
